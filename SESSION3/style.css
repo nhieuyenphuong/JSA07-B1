@@ -1,0 +1,59 @@
+body{
+    margin:0;
+}
+#header{
+    background-image:url("./Omni\ Page/hero.jpg");
+    height:100vh;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    color:aliceblue;
+    display: flex;
+   
+
+}
+#nav{
+    display:flex
+}
+
+#nav img{
+    width: 200px;;
+    height: 200px;
+
+
+}
+#nav   {
+    display: flex;
+    width: 100%;
+    font-size: 28px;
+    margin:auto;
+    justify-content: space-around;
+    transform:translate(0%,-95%);
+  
+
+}
+ul{
+    list-style: none;
+    font-size:32px;
+    display: flex;
+    width:800px;
+    /* justify-content: space-around; */
+    cursor: ppinter;
+
+}
+li{
+    display:flex;
+    align-items: center;
+}
+#text{
+    width:1200px;
+
+}
+.btn{
+    width:200px;
+    height:30px;
+    background-color:beige;
+    border: 1px solid black;
+    font-size:18px;
+    border-radius: 20px;
+}
