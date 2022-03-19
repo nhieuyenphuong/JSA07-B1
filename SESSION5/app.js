@@ -9,11 +9,11 @@ let data =[
 
 ];
 //b2: lấy dữ liệu mà ngta Input
-let usernameInput= document.getElementById('usernname');
+let usernameInput= document.getElementById('username');
 let passwordInput=document.getElementById('password');
 let btnLogin=document.getElementById('btnLogin');
 let error= document.getElementById('errorMessage');
-
+console.log(usernameInput);
 //b3: bắt sự kiện: 
 btnLogin.addEventListener('click', function() {
     let username = usernameInput.value; 
