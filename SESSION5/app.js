@@ -30,6 +30,6 @@ btnLogin.addEventListener('click', function() {
     }
 
 })
-//let container = document.getElementById('container');
+let container = document.getElementById('container');
 
-//container.insertAdjacentHTML('afterend', `<h1>${MOVIES[0].plot}</h1>`)
+container.insertAdjacentHTML('afterend', `<h1>${MOVIES[0].plot}</h1>`) // thêm thành phânf dạng string maf format vẫn laf của html 
